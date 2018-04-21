@@ -1,5 +1,4 @@
 #!/bin/sh
-set -x
 if [ ! $(id "$USERNAME" >> /dev/null 2>&1) ]; then
   echo Creating user $USERNAME
   adduser -D "$USERNAME"
